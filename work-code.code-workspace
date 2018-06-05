@@ -1,0 +1,104 @@
+{
+	"folders": [
+		{
+			"path": "/Users/officeuse/sample/analytics-server",
+			"name": "forecast",
+		},
+		{
+			"path": "/Users/officeuse/sample/service-infrastructure",
+			"name": "service-infrastructure",
+		},
+		{
+			"path": "/Users/officeuse/sample/etl-data-service/etl",
+			"name": "etl",
+		},
+		{
+			"path": "/Users/officeuse/sample/gbm-service/gbm",
+			"name": "gbm",
+		},
+		{
+			"path": "/Users/officeuse/sample/aviso-sdk",
+			"name": "avisosdk",
+		},
+		{
+			"path": "/Users/officeuse/sample/eventbus"
+			,"name": "eventbus",
+		}
+	],
+	"launch": {
+		"configurations": [
+			{
+				"name": "vscode debug",
+				"type": "pythonExperimental",
+				"request": "attach",
+				"localRoot": "/Users/officeuse/sample/service-infrastructure",
+				"remoteRoot": "/service-infrastructure",
+				"port": 5678,
+				"host": "0.0.0.0"
+			},
+		],
+		"compounds": [
+		]
+	},
+	"settings": {
+			"workbench.colorTheme": "Visual Studio Light",
+			"editor.fontSize": 20,
+			"files.exclude": {
+				"**/.git": true,
+				"**/.DS_Store": true,
+				"**/**/**/__pycache__": true,
+				".project": true,
+				".pydevproject": true,
+				"**/*.c": true,
+				"**/*.o": true,
+				"**/*.so": true,
+				"**/*.pyc": true
+			},
+			"editor.wordBasedSuggestions": true,
+			"editor.rulers": [
+				0, 80, 120
+			],
+			"workbench.editor.enablePreview": false,
+			"window.title": "${activeEditorLong}${separator}${rootName}",
+			"window.zoomLevel": -2,
+			"python.linting.enabled": false,
+			"python.linting.mypyArgs": [
+				"--follow-imports=silent",
+				"--errors-only",
+				"--disable=W0201"
+			],
+			// "python.formatting.formatOnSave": true,
+			"git.confirmSync": false,
+			"todohighlight.isEnable": true,
+			"workbench.iconTheme": "vs-seti",
+			"javascript.format.enable": false,
+		
+			"editor.formatOnPaste": true,
+			"editor.emptySelectionClipboard": false,
+			"workbench.statusBar.visible": true,
+			"workbench.activityBar.visible": true,
+			"editor.renderWhitespace": "all",
+			"editor.renderControlCharacters": false,
+			"zenMode.hideTabs": false,
+			"editor.cursorStyle": "block",
+		
+			"workbench.editor.enablePreviewFromQuickOpen": false,
+			"workbench.quickOpen.closeOnFocusLost": false,
+			"extensions.ignoreRecommendations": true,
+			"git.enableSmartCommit": true,
+			"workbench.startupEditor": "newUntitledFile",
+			"git.autofetch": true,
+			"gitlens.keymap": "alternate",
+			"gitlens.advanced.messages": {
+				"suppressCommitHasNoPreviousCommitWarning": false,
+				"suppressCommitNotFoundWarning": false,
+				"suppressFileNotUnderSourceControlWarning": false,
+				"suppressGitVersionWarning": false,
+				"suppressLineUncommittedWarning": false,
+				"suppressNoRepositoryWarning": false,
+				"suppressResultsExplorerNotice": false,
+				"suppressShowKeyBindingsNotice": true
+			},
+			"gitlens.historyExplorer.enabled": true,
+	}
+}
